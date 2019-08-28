@@ -31,7 +31,7 @@ public class MainServer {
 		ServerSocket serversocket = new ServerSocket(7700); // 서버소켓 기동
 		
 		// 차례대로 들어온 두명에 대한 PServer 객체를 만든다.
-		PServer p1 = new PServer(1, serversocket.accept());	
+		PServer p1 = new PServer(1, serversocket.accept());	 
 		PServer p2 = new PServer(2, serversocket.accept());	
 		
 		// 레디할 때까지 (준비대기)쓰레드를 작동시킨다.
