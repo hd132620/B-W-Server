@@ -22,7 +22,7 @@ public class MainServer {
 	public static final int DRAW = 0;		// 비김
 	public static final int LOSE = -1;		// 짐
 	
-	public static boolean coinToss() {	// 코인을 던져 true와 false 둘 중 하나의 값이나오게 한다.
+	public static boolean coinToss() {	// 코인을 던져 true와 false 둘 중 하나의 값이나오게 한다. 
 		return ((int)(Math.random() * 1000 % 2)) == 1;
 	}
 
